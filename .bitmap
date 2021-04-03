@@ -7,11 +7,5 @@
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/arrow-tooltip"
     },
-    "ui/button": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "my-scope/ui/button"
-    },
     "version": "1.0.47"
 }

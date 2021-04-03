@@ -1,17 +1,17 @@
-import React from 'react'
-import { Story, Meta } from '@storybook/react/types-6-0'
-import { TooltipProps } from '@material-ui/core/Tooltip'
-import ArrowTooltip from './ArrowTooltip'
+import React from "react";
+import { Story, Meta } from "@storybook/react/types-6-0";
+import { TooltipProps } from "@material-ui/core/Tooltip";
+import ArrowTooltip from "./ArrowTooltip";
 
 export default {
-  title: 'Shared/ArrowTooltip',
+  title: "Shared/ArrowTooltip",
   component: ArrowTooltip,
-} as Meta
+} as Meta;
 
-const Template: Story<TooltipProps> = (args) => <ArrowTooltip {...args} />
+const Template: Story<TooltipProps> = (args) => <ArrowTooltip {...args} />;
 
-export const ArrowTooltipDef = Template.bind({})
+export const ArrowTooltipDef = Template.bind({});
 ArrowTooltipDef.args = {
-  title: 'i am a tooltip',
-  children: <span>text has tooltip</span>
-}
+  title: "i am a tooltip",
+  children: <span>text has tooltip</span>,
+};
